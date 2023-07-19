@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "a3e15935-1299-4f3d-8ffe-ac40198c5d2f",
+		"name": "collection_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "req_1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"info1\":[\"112233\"],\r\n    \"info2\": [\"1\",\"2\",\"3\",\"4\"]\r\n}"
+				},
+				"url": {
+					"raw": "https://YES/IE/ss/",
+					"protocol": "https",
+					"host": [
+						"YES"
+					],
+					"path": [
+						"IE",
+						"ss",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
