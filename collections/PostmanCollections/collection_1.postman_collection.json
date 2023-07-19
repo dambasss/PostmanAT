@@ -7,23 +7,42 @@
 	"item": [
 		{
 			"name": "req_1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"info1\":[\"112233\"],\r\n    \"info2\": [\"1\",\"2\",\"3\",\"4\"]\r\n}"
+					"raw": ""
 				},
 				"url": {
-					"raw": "https://YES/IE/ss/",
+					"raw": "https://api.weather.yandex.ru/v2/forecast?lat=55.75396&lon=37.620393&lang=ru_RU",
 					"protocol": "https",
 					"host": [
-						"YES"
+						"api",
+						"weather",
+						"yandex",
+						"ru"
 					],
 					"path": [
-						"IE",
-						"ss",
-						""
+						"v2",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "55.75396"
+						},
+						{
+							"key": "lon",
+							"value": "37.620393"
+						},
+						{
+							"key": "lang",
+							"value": "ru_RU"
+						}
 					]
 				}
 			},
