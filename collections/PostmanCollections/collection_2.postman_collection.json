@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "a3e15935-1299-4f3d-8ffe-ac40198c5d2f",
+		"name": "collection_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "req_2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.weather.yandex.ru/v2/forecast?lat=55.75396&lon=37.620393&lang=ru_RU",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"v2",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "55.75396"
+						},
+						{
+							"key": "lon",
+							"value": "37.620393"
+						},
+						{
+							"key": "lang",
+							"value": "ru_RU"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
